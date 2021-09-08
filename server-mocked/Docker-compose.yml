@@ -1,0 +1,7 @@
+
+services:
+    mb-graphql:
+        image:  bashj79/mountebank-graphql
+        ports:
+            - 2525:2525
+            - 6969:6969
